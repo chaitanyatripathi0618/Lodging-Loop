@@ -1,0 +1,39 @@
+#wave{
+    width: 1460px ;
+    /* height: 20px; */
+}
+.footers{
+    margin-top: -40px;
+    /* border: 1px solid black; */
+    height: 600px;
+
+    background: #f6e2fa;
+}
+.underfooter{
+    /* border: 1px solid black; */
+    height: 300px; 
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.de{
+    /* border: 1px solid black; */
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 300px;
+    overflow: hidden;
+}
+.de p{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.de h1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}

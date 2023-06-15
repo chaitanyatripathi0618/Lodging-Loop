@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.video{
+    /* border: 1px solid black; */
+    position: relative;
+    /* width: 1461px; */
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    /* background-color: black; */
+}
+
+.video::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1f1f1f5a;
+}
+#video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 700px;
+    object-fit: cover; 
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+}
+.textl{
+    position: absolute;
+    z-index: 2;
+    margin-left: 250px;
+    margin-top: 250px;
+
+}
+#p1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    user-select: none;
+
+}
+#p2{
+    margin-left: 130px;
+    color: white;
+    font-size: 35px;
+}
+
+#expbtn{
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-size:25px;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    margin-left: 380px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#expbtn:hover{
+    background: #fff;
+    border: 1px solid rgb(204, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    font-weight: 600;
+}

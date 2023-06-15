@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.comfortable1{
+    display: flex;
+    /* background-color: black; */
+}
+#room{
+    width: 250px;
+    height: 250px;
+
+}
+.features{
+    display: flex;
+    /* border: 1px solid black; */
+    position: relative;
+    height: 650px;
+    margin-left: 150px;
+    }
+.room1{
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    z-index: 9;
+    margin-top: 90px;
+    overflow: hidden;
+}
+.room2{
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 350px;
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 400px;
+    overflow: hidden;
+}
+#room2{
+    height: 400px;
+    width: 500px;
+}
+.room3{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 250px;
+    margin-top:300px;
+    z-index: 11;
+    margin-left: 45px;
+}
+.room4{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 300px;
+    z-index: 10;
+    margin-top: 370px;
+    /* margin-left: -0px; */
+}
+.textbed2{
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-left: 100px;
+    position: relative;
+}
+.quotes{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 4;
+    background: linear-gradient(to right,  #ba5370, #f4e2d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.quotes h2{
+    font-size: 18px;
+    color:white;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+.divtext{
+    border: 1px solid black;
+    position: absolute;  
+    height: 300px;
+    width: 400px;
+    z-index: 2;
+    margin-left: 150px;
+    margin-top: 190px;
+    
+}
+.divtext h2{
+    color: black;
+    margin-top: 80px;
+    margin-left: 60px;
+}

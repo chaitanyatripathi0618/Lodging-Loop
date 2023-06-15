@@ -1,0 +1,78 @@
+.out1{
+    /* border: 1px solid black; */
+    height: 800px;
+}
+#booking{
+    margin-top: -40px;
+    margin-left: 200px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 50px;
+    color:#aeaaaa;
+}
+#hotelbim{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    margin-right: 20px;
+    overflow: hidden;
+    /* margin-left: 200px; */
+}
+#hotelbim img{
+    width: 350px;
+    height: 250px;
+}
+.outerhotelb{
+    border: 1px solid  rgb(204, 200, 200);  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    height: 300px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.detailsb{
+    /* border: 1px solid black; */
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+
+}
+#paybtn{
+    height: 40px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-size:25px;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    margin-left: 700px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#paybtn:hover{
+    background: #fff;
+    border: 1px solid rgb(204, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    font-weight: 600;
+}
+.animationc{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -80px;
+}
+#animationc{
+    height: 200px;
+
+}

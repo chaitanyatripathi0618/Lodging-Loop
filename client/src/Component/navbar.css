@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+.header{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 1461px;
+    background: #ffffff50;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -690px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    /* border: 1px solid black; */
+    width: 300px;
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+}
+.logo p{
+    margin-top: -35px;
+    font-size: 20px;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+}
+.list{
+    /* border: 1px solid black; */
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+}
+.list li{
+    font-size: 20px;
+    margin-top: 35px;
+    font-family: 'Playfair Display', serif;
+}
+.loginbtn{
+    width: 100px;
+    height: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 28px;
+    /* background: linear-gradient(to right,#0f2027, #203a43, #2c5364); */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+}
+.loginbtn:hover{
+    cursor: pointer;
+    background:none;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: 1px solid #203a43;
+    font-weight: 600;
+
+}

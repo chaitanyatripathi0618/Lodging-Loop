@@ -1,0 +1,72 @@
+.out{
+    /* border: 1px solid black; */
+}
+.hoteldiv{
+    /* border: 1px solid black; */
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    
+}
+.hoteldiv h1{
+    font-size: 50px;
+    margin-top: -120px;
+    color:#aeaaaa;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.hoteldiv p{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.rightimg{
+    /* margin-top: -5px; */
+    height: 550px;
+}
+
+.roomdiv{
+    width: 200px;
+    height: 180px;
+    margin-top: 2px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.roomdiv img{
+    height: 180px;
+
+}
+#hotelim{
+    /* border: 1px solid black; */
+    height: 550px;
+    width: 600px;
+    overflow: hidden;
+}
+.outerhotel{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.rightimg{
+    /* border: 1px solid black; */
+    width: 400px;
+    margin-left: 10px; 
+}
+#animationdiv{
+    /* border: 1px solid black; */
+    display: flex;
+    height:70px;
+
+}
+#animationl{
+    height:60px;
+}
+#diva{
+    /* border:1px solid black; */
+    height:59px;
+}
+#locationn{
+    margin-top: 15px;
+}

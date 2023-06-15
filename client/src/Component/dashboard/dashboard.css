@@ -1,0 +1,97 @@
+.outbox{
+    /* border:1px solid black; */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    height: 2430px;
+    width: 1056px;
+    margin-left: 200px;
+    /* position: absolute; */
+    margin-bottom: 100px;
+    background: #fff;
+    z-index: 4;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+.backart{
+    /* border: 1px solid black; */
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    /* margin-left: 10px; */
+    float: left;
+    height: 489px;
+    width: 235px;
+    margin-top: 80px;
+    background: linear-gradient(180deg, #444BAB 0%, rgba(99,167,211,0.265625)73.44%, rgba(110,200,225,0)100%);
+    opacity: 0.9;
+}
+
+#hotelimg{
+    height: 300px;
+}
+.boxdiv{
+    /* border: 1px solid black; */
+    height: 450px;
+    /* position: absolute; */
+    width: 330px;
+    z-index: 4;
+    margin-top: 10px ;
+    background: #dddbdb;
+    box-shadow: rgba(80, 86, 94, 0.2) 0px 8px 24px;
+    margin-left: 10px;
+}
+.boxdiv:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    cursor: pointer;
+}
+.imgbox{
+    /* border: 1px solid black; */
+    height: 250px;
+    margin: 15px;
+    overflow: hidden;
+}
+.textp{
+    /* border: 1px solid black; */
+    margin: 15px ;
+}
+.textp h1{
+    font-size: 22px;
+    /* margin-left: 10px; */
+}
+#hrid{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left:50px; */
+}
+#price{
+    margin-bottom: 10px; ;
+}
+.ftbtn{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.ftbtn button{
+    margin-top: 5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border:none;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+#morebtn:hover{
+    background: none;
+    border: 1px solid rgb(204, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+}

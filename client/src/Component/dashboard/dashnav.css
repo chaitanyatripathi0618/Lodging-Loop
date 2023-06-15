@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.outerbox{
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+    /* display: flex;
+    justify-content: space-around; */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 450px;
+    /* position: absolute; */
+
+}
+
+#lodging{
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+#name{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 10px;
+    height: 50px;
+    flex-direction: row;
+}
+#logodiv{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+#name p{
+    margin-right: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-left: 5px;
+}
+.logodivs{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 200px;
+    display: flex;
+    margin-left: 100px;
+    /* overflow: hidden; */
+}
+#logo{
+    height: 80px;
+    width: 70px;
+    margin-top: -14px;
+    margin-left: -10px;
+}
+.listdivs{
+    /* border: 1px solid black; */
+    width: 900px;
+    margin-top: -25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.boxd{
+    /* border: 1px solid white; */
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+}
+.listdivs ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.listdivs ul li{
+    margin-top: 15px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+}
+.listdivs a{
+    text-decoration: none;
+    color: inherit;
+}
+.searchbox{
+    border: 1px solid white;
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: white;
+}
+.searchbox p{
+    margin-top: 40px;
+    margin-left: 390px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.item{
+    /* border: 1px solid rgb(72, 61, 61); */
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* display: flex; */
+    /* justify-content: space-evenly */
+}
+#search{
+    border: 1px solid rgb(204, 200, 200);
+    width: 250px;
+    height: 120px;
+    margin-left: 150px;
+    /* overflow: hidden; */
+    /* margin-top: 10px; */
+}
+#search p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#search input{
+    width: 248px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+#calendar{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -176px;
+    margin-left: 800px;
+}
+#calendar input{
+    margin-left: 10px;
+}
+#checkin{
+    border: 1px solid  rgb(204, 200, 200);
+    width: 150px;
+}
+#checkin p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#rooms{
+    border: 1px solid  rgb(204, 200, 200);
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+#rooms select{
+    width: 100px;
+    margin-left: 10px;
+}
+#rooms p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#btndiv{
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 460px;
+}
+#searchbtn{
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-size:25px;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#searchbtn:hover{
+    background: #fff;
+    border: 1px solid rgb(204, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    font-weight: 600;
+}

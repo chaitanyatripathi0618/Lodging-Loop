@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.imgdiv{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 400px;
+    overflow: hidden;
+    height: 438px;
+    /* background-size: cover; */
+    margin-left: -20px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background-color: #1f1f1f9a;
+    position: relative;
+}
+.imgdiv::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1f1f1f9a;
+}
+#add1{
+  height: 400px;
+  width: 400px;
+  /* z-index: ; */
+  /* background-color: #1f1f1f9a; */
+  position: absolute;
+}
+.pt{
+  margin-top: 15px;
+  margin-left: 70px;
+}
+#happy{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+.off{
+  margin-top: 15px;
+  margin-left: 90px;
+}
+.offp{
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.offh{
+  margin-left: 55px;
+  margin-top: 15px;
+}
+.textdiv{
+  position: absolute;
+  color: #fff;
+  width: 300px;
+  /* border: 1px solid white; */
+  margin-left: 60px;
+  z-index: 1;
+  margin-top: 80px;
+  /* font-family: 'Playfair Display', serif; */
+}
+.textdiv h1{
+  margin-left: 20px;
+
+}
+.textdiv p{
+  font-family: 'Playfair Display', serif;
+}
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 999;
+  }
+   
+  .box {
+    position: relative;
+    width: 692px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 400px;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    border: 1px solid #999;
+    /* overflow: auto; */
+  }
+  .formbox{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    /* border: 1px solid black; */
+    /* margin-left: 10px; */
+    margin-top: -20px;
+    /* border: 1px solid black; */
+    margin-right: -40px;
+    /* background: linear-gradient(360deg, #544a7d, #ffd452); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 440px;
+    /* border-radius: 10px */
+  }
+  #closebtn{
+    margin-left: 250px;
+    border-radius: 50%;
+    width: 30px;
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    background: none;
+    /* font-weight: 600; */
+    cursor: pointer;
+    font-size: 25px;
+  }
